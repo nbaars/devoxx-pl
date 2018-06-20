@@ -37,6 +37,8 @@ Using Java 9 or above, see https://github.com/WebGoat/WebGoat/wiki/FAQ#java9 for
 
 **Prerequisite: Docker should be present on laptop**
 
+Copy [this](https://github.com/WebGoat/WebGoat/blob/develop/docker-compose.yml) `docker-compose` file to your local machine 
+
 ```
-docker run -p 8080:8080 -t webgoat/webgoat-8.0.0-M21
+docker-compose up
 ```
